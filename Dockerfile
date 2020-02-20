@@ -1,6 +1,6 @@
 FROM golang:1.13 as builder
 
-RUN go get -v github.com/iota-tangle-io/iota-spammer
+RUN go get -v github.com/karimodm/iota-spammer
 
 FROM debian:stable-slim
 
